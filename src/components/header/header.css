@@ -1,0 +1,91 @@
+.top {
+  width: 100%;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 30px 0px;
+  background: #000;
+  color: #fff;
+}
+/* .topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.navbar-nav a{
+color: #fff;
+}
+.topIcon {
+  font-size: 30px;
+  margin-right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.topCenter {
+  flex: 6;
+}
+
+.topList {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navbar-nav a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+.navbar-nav a:hover{
+  color: #fff;
+}
+.topListItem {
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.bg-dark {
+  padding: 4px 10px;
+  border-bottom: 1px solid #ffffff26;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.topListItem a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.topListItem:hover{
+    color: gray;
+}
+
+.topImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+.topSearchIcon {
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+}
+
+.navbar-nav a.active{
+  color: skyblue;
+}

@@ -1,0 +1,29 @@
+.about-page {
+    background: aliceblue;
+    padding-bottom: 26px;
+    height: 100vh;
+    padding-top: 183px;
+}
+
+.about-page h2 {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.about-page p {
+    font-size: 18px;
+    font-family: cursive;
+    line-height: 34px;
+}
+.about-page li i {
+    border: 1px solid #000;
+    border-radius: 1px;
+    font-size: 11px;
+    padding: 3px;
+}
+.about-page li {
+    font-size: 16px;
+    font-family: monospace;
+    line-height: 38px;
+}

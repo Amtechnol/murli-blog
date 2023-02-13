@@ -1,0 +1,18 @@
+iframe {
+    pointer-events: none;
+  }
+
+  @media(min-width:1400px)
+  {
+    .container{
+      max-width: 1421PX;
+    }
+  }
+
+  .write-sec,.settings,.about-page,.contact-sec{
+    padding-top: 100px;
+  }
+
+  .form-control{
+    border: 1px solid #ced4da!important;
+  }
